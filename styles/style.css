@@ -1,0 +1,17 @@
+/*overall*/
+html{font-family: 'Free Serif', sans-serif;}
+body{padding:0; margin:0; background-color: black;}
+
+/*header/footer*/
+header{background-color: #1d1d1d;}
+footer{background-color: #1d1d1d;}
+
+/*text*/
+h1{color: #ffffff;  text-align: left;}
+h4{color: #ffffff;  text-align: center;}
+p{color: #ffffff; text-align: left;}
+
+/*nav menu*/
+ul {text-align: center; list-style: inside; list-style-type:none;}
+nav ul li a{ color: #c12300; font-weight: bold}
+nav ul li a:hover{ color: #646464; background-color: white}
