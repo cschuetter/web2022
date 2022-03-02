@@ -9,7 +9,7 @@ footer{background-color: #1d1d1d;}
 /*text*/
 h1{color: #ffffff;  text-align: left;}
 h4{color: #ffffff;  text-align: left;}
-p{color: #ffffff; text-align: left;}
+p{color: #ffffff; text-align: left;line-height: 1.5}
 
 /*nav menu*/
 ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #1d1d1d;}
