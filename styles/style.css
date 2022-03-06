@@ -19,5 +19,5 @@ li a:hover {background-color: white; color: #1d1d1d;}
 
 /*div*/
 .wrapper {display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;}
-.one {grid-column: 2;grid-row: 1;}
-.two {grid-column: 1;grid-row: 1;}
+.one {grid-column: 2;grid-row: 1; justify-content: center;}
+.two {grid-column: 1;grid-row: 1; justify-content: center;}
