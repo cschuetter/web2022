@@ -18,7 +18,7 @@ li a {display: block; color: #c12300 ;text-align: center;padding: 5px 10px; text
 li a:hover {background-color: white; color: #1d1d1d;}
 
 /*sections*/
-section {display: flex; gap: 10px; flex-wrap: wrap;}
+section {display: flex; gap: 10px;}
 img {align-items: center; justify-content: center;}
 /*contact table*/
 table {
