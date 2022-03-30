@@ -19,6 +19,7 @@ li a:hover {background-color: white; color: #1d1d1d;}
 
 /*sections*/
 section {display: flex; gap: 10px; flex-wrap: wrap;}
+.centered{justify-content: center;}
 /*contact table*/
 table {
   border-collapse: collapse;
