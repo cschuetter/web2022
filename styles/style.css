@@ -20,3 +20,14 @@ li a:hover {background-color: white; color: #1d1d1d;}
 /*sections*/
 section {display: flex; gap: 10px; flex-wrap: wrap;}
 img {align-items: center; justify-content: center;}
+/*contact table*/
+table {
+  border-collapse: collapse;
+  color: white;
+  background-color: #1d1d1d;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+td{padding: 3px;}

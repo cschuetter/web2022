@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <style>
-      table {
-        border-collapse: collapse;
-        color: white;
-        background-color: #1d1d1d;
-        text-align: center;
-        padding: 10px;
-      }
-      td{padding: 3px;}
+
     </style>
     <title>Christian Schuetter</title>
   </head>
@@ -27,17 +20,30 @@
       </ul>
     </nav>
   </header>
-  <table>
-    <th>
-      <th colspan="2"> Contact Me: </th>
-    </th>
-    <tbody>
-      <tr><td>Email</td><td>filleremail@schuetter.net</td></tr>
-      <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/christian-schuetter-901349199/">Christian Schuetter's Profile </a> </td></tr>
-      <tr><td>GitHub</td><td><a href="https://github.com/cschuetter">Christian Schuetter's Page </a> </td></tr>
-    </tbody>
-
-  </table>
+  <section>
+    <table>
+      <th>
+        <th colspan="2"> Contact Me: </th>
+      </th>
+      <tbody>
+        <tr><td>Email</td><td>filleremail@schuetter.net</td></tr>
+        <tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/in/christian-schuetter-901349199/">Christian Schuetter's Profile </a> </td></tr>
+        <tr><td>GitHub</td><td><a href="https://github.com/cschuetter">Christian Schuetter's Page </a> </td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h3> Contact Me: </h3>
+    <form action="scripts/form.php" method="post">
+      <label for="fname">Your name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Your email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Your name</label>
+      <input type="textarea" rows="2" columns="40" id="message" placeholder="Your message here" name="message">
+      <input type="submit">
+    </form>
+  </section>
   <footer>
     <h4> Quick Links </h4>
     <nav>
