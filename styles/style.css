@@ -26,8 +26,7 @@ table {
   background-color: #1d1d1d;
   text-align: center;
   padding: 10px;
-  align-items: left;
-  justify-content: left;
+  text-align: left;
 }
 td{padding: 3px;}
 
