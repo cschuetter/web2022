@@ -13,8 +13,8 @@ h5{color: #ffffff;  text-align: left;}
 p{color: #ffffff; text-align: left;line-height: 1.5;}
 
 /*nav menu*/
-#navmenu {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #1d1d1d;}
-#navelement {float: left; font-weight: bold;}
+ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #1d1d1d;}
+li {float: left; font-weight: bold;}
 li a {display: block; color: #c12300 ;text-align: center;padding: 5px 10px; text-decoration: none;}
 li a:hover {background-color: white; color: #1d1d1d;}
 
